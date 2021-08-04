@@ -1,38 +1,112 @@
-.App {
-  text-align: center;
+@import url("https://fonts.googleapis.com/css2?family=Roboto+Condensed:wght@300&display=swap");
+
+:root {
+  --primary-blue: #3793de;
+  --secondary-blue: #1265a9;
+  --thirdy-blue: #023a69;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+body {
+  background-color: #dfdfdf;
+  font-family: "Roboto Condesed" sans-serif;
+  overflow-x: hidden;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+/******************NAVBAR********************/
+.logo {
+  width: 100px;
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
+nav {
+  z-index: 2;
+}
+
+nav a.nav-link {
+  font-weight: 500;
+  letter-spacing: 2px;
+}
+
+nav ul li {
+  text-transform: uppercase;
+}
+
+.navbar-nav > li > a {
+  margin-left: 12px;
+  margin-right: 12px;
+}
+
+.navbar-nav > li > a.active,
+.navbar-nav > li > a:focus {
+  border-top: 0.1875rem solid var(--primary-blue);
+}
+
+.navbar-nav > li > a:hover {
+  border-top: 0.1875rem solid var(--primary-blue);
+}
+
+/* Content */
+
+.header-wrapper {
+  position: relative;
+  background: url(./assets/images/home2.png);
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  min-height: 93.5vh;
+}
+
+.main-info {
+  max-width: 500px;
+  padding-top: 250px;
+  padding-left: 50px;
+}
+
+.main-info > p {
+  margin-bottom: 50px;
+}
+
+.btn-getapp {
+  padding: 20px 90px;
+  background-color: #3793de;
+  text-decoration: none !important;
   color: white;
 }
 
-.App-link {
-  color: #61dafb;
+.btn-getapp:hover {
+  text-decoration: none !important;
+  background-color: var(--secondary-blue);
+  color: white;
+  transition: 0.5s ease-in-out;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+/* Fitur */
+
+.fitur {
+  padding: 30px;
+  min-height: 93.5vh;
+}
+
+.prev-app {
+  border-radius: 50px;
+}
+
+.gambar-slide {
+  width: 60%;
+}
+
+.gambar-slide img {
+  padding: 30px 30px 30px 30px;
+}
+
+.judul {
+  margin-bottom: 30px;
+}
+
+.judul::after {
+  content: "";
+  display: block;
+  border-bottom: 3px solid #000000;
+  width: 25%;
+  margin: auto;
+  padding-bottom: 5px;
 }
