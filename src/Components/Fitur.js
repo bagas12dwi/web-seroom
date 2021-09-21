@@ -5,7 +5,7 @@ import img3 from "../assets/images/prototype3.png";
 
 const Fitur = () => {
   return (
-    <section className="fitur">
+    <section className="fitur" id="fitur">
       <div className="container">
         <h3 className="text-uppercase text-center judul">fitur</h3>
         <div className="row">
@@ -37,6 +37,23 @@ const Fitur = () => {
           <div className="col">
             <div className="container">
               <h1 className="text-uppercase">Seroom.id</h1>
+              <ul className="">
+                <li className="mb-5">
+                  <h4>Jasa Service Room</h4>
+                  <p>
+                    Layanan service room bersih-bersih kamar kost, seperti menyapu , mengepel, merapikan tempat tidur, pembersihan dari debu dan lainnya. Daily Cleaning adalah pembersihan harian yang wajar, jadi alat dan chemical yang
+                    digunakan standar
+                  </p>
+                </li>
+                <li className="mb-5">
+                  <h4>Jasa Pengantaran Laundry</h4>
+                  <p>Layanan pengantar laundry memberikan kemudahan untuk mengantar dan menjemput laundry dari kost ke tempat laundry tanpa harus datang ke tempat</p>
+                </li>
+                <li className="mb-5">
+                  <h4>Jasa Antar Jemput Galon</h4>
+                  <p>Layanan pengantar galon memberikan kemudahan dengan mengantar, menjemput dan mengganti galon dari kost ke tempat isi ulang tanpa harus datang ke tempat isi ulang</p>
+                </li>
+              </ul>
             </div>
           </div>
         </div>

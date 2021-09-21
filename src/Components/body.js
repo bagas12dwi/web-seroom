@@ -2,7 +2,7 @@ import React from "react";
 
 const Body = () => {
   return (
-    <section className="header-wrapper">
+    <section className="header-wrapper" id="home">
       <div className="container ">
         <div className="main-info">
           <h1 className="display-1 fw-bold text-uppercase">SeRoom.id</h1>
