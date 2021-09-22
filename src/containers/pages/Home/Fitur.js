@@ -1,7 +1,7 @@
 import React from "react";
-import img1 from "../assets/images/prototype1.png";
-import img2 from "../assets/images/prototype2.png";
-import img3 from "../assets/images/prototype3.png";
+import img1 from "../../../assets/images/prototype1.png";
+import img2 from "../../../assets/images/prototype2.png";
+import img3 from "../../../assets/images/prototype3.png";
 
 const Fitur = () => {
   return (

@@ -1,9 +1,9 @@
 import "./App.css";
 import "bootstrap/dist/css/bootstrap.min.css";
-import Navbar from "./Components/Navbar";
-import Body from "./Components/body";
-import Fitur from "./Components/Fitur";
-import Tentang from "./Components/tentang";
+import Navbar from "../Home/Navbar";
+import Body from "../Home/body";
+import Fitur from "../Home/Fitur";
+import Tentang from "../Home/tentang";
 
 function App() {
   return (
