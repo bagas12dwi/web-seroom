@@ -1,3 +1,5 @@
+import 'package:admin/constants.dart';
+import 'package:admin/screens/dashboard/components/header.dart';
 import 'package:flutter/material.dart';
 
 class HistoriTransaksiScreen extends StatefulWidget {
@@ -10,6 +12,16 @@ class HistoriTransaksiScreen extends StatefulWidget {
 class _HistoriTransaksiScreenState extends State<HistoriTransaksiScreen> {
   @override
   Widget build(BuildContext context) {
-    return Container();
+    return SafeArea(
+        child: SingleChildScrollView(
+          padding: EdgeInsets.all(defaultPadding),
+          child: Column(
+            children: [
+              Header(tittleName: "Histori Transaksi"),
+              SizedBox(height: defaultPadding,)
+            ],
+          ),
+        )
+    );
   }
 }
